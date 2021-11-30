@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    margin-block-end: 1rem;
+    
+}
+
+h1 {
+    margin-block: 0;
+    color: white;
+}
+
+.github-users-container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+table { 
+    margin-block-end: 0.5rem;
+}
+
+img {
+    width: 200px;
+}
+
+td {
+    text-align: center;
+    border: 1px black solid;
+}
